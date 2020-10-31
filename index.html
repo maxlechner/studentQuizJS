@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <!-- JQuery formatting of CSS -->
+    <div class="card" style="width:400px">
+        <div type="button" class="btn btn-success" id="start">Click here to start the quiz</div>
+        
+        <div id="quiz" style="display: none">
+            
+            <div class="card-header bg-dark text-white" id="question"></div>
+            
+            <div class ="card-body">
+                <div class="btn-group-vertical">
+                    <div type="button" class="btn btn-primary" id="A" onclick="checkAns('A')"></div>
+                    <div type="button" class="btn btn-primary" id="B" onclick="checkAns('B')"></div>
+                    <div type="button" class="btn btn-primary" id="C" onclick="checkAns('C')"></div>
+                </div>
+            </div>
+
+        </div>
+    
+    </div>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Javascript elements to run functions -->
+    <script src="Assets/script.js"></script>
+</body>
+</html>
