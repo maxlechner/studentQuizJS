@@ -13,38 +13,26 @@
         <a href="#" id="viewHighscores">View Highscores</a>
     </header>
 
-    <main class='container'>
+    <main class='startContainer'>
         <section id='startScreen'>
-            <h2>Coding bootcamp quizzing Tool</h2>
+            <h1>Coding bootcamp quizzing Tool</h1>
             <p>Test your coding knowledge with this quiz. The rules are as follows:</p>
             <ul>
                 <li>You have 60 seconds to answer all of the questions</li>
                 <li>Each wrong answer subtracts 10 secods from the available time</li>
+        
             </ul>
-
-            <div id='buttonBlock'>
-                <button id='startBtn'>Start</button>
-            </div>
+            <button id='startBtn'>Start</button>
         </section>
 
         <section id='questionContainer' class='hide'>
             <div class="card">
                 <h2 class = card-title id='question'>Question</h2>
                 <div id='timer'>Time remaining:</div>
-
-                <div id='buttonBlock'>
-                    <button class='answerBtn' id='answer1' data-number='1'></button>
-                </div>
-                <div id='buttonBlock'>
-                    <button class='answerBtn' id='answer2' data-number='2'></button>
-                </div>
-                <div id='buttonBlock'>
-                    <button class='answerBtn' id='answer3' data-number='3'></button>
-                </div>
-                <div id='buttonBlock'>
-                    <button class='answerBtn' id='answer4' data-number='4'></button>
-            </div>
-            
+                <button class='answerBtn' id='answer1' data-number='1'></button>
+                <button class='answerBtn' id='answer2' data-number='2'></button>
+                <button class='answerBtn' id='answer3' data-number='3'></button>
+                <button class='answerBtn' id='answer4' data-number='4'></button>
         </section>
 
         <section id='gameOverScreen' class='hide'>

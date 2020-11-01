@@ -26,7 +26,7 @@ const highscoreEl = document.querySelector('#highscores');
 const usernamesEl = document.querySelector('#usernames');
 const scoresEl = document.querySelector('#scores');
 
-// Timer/Score Variables
+// Timer Variables
 let timeLeft = 60;
 const timerDisplayEL = document.getElementById('timer');
 let interval;
@@ -41,6 +41,8 @@ retakeBtnEl.addEventListener('click', reloadTest)
 
 // Submit score button
 submitBtnEl.addEventListener('click', submitScore)
+
+// display high score and hide all unrelated fields
 viewHighscoresEl.addEventListener('click', () => {
     startScreenEl.classList.add('hide');
     questionContainerEl.classList.add('hide');
